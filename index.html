@@ -1,0 +1,81 @@
+<!------------- all assets found on google images ------------->
+<!------------- music is Gwiyomi by Hari ------------->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> CAT ฅ^•ﻌ•^ฅ </title>
+<!------------- css start ------------->
+    <style>
+      body {
+        background-image: url("background.png");
+        background-attachment: fixed; /*background does not scroll*/
+        background-size: contain; /*background fits the page*/
+        background-repeat: no-repeat; /*background appears only once*/
+
+        border-style: dashed; /*dashed borders*/
+        border-color: #fff2f2;
+        border-radius: 5px; /*rounded out edges*/
+
+        text-align: center; /*all body is centered*/
+        font-family: Helvetica;
+      }
+      img{
+        width: 320px;
+        height: 320px;
+        margin: 50px;
+        opacity: .6;
+
+        border-style: solid;
+        border-color: #f7aeb0;
+        border-radius: 10px;
+      }
+      img:hover{
+        box-shadow: 5px 6px 2px #d1d1d1; /*shadows appear when hovering*/
+        opacity: 1;
+      }
+
+      h1{
+        color: #f7aeb0;
+      }
+      p{
+        color: #f7aeb0;
+      }
+    </style>
+<!------------- css end ------------->
+  </head>
+
+<!------------- body start ------------->
+  <body>
+    <h1> (づ ◜ ヮ ◝)づ </h1>
+
+    <audio controls id="music">
+      <source src="audio.mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <script> /*set the volume of the audio*/
+      var audio = document.getElementById("music");
+      audio.volume = .2;
+    </script>
+
+    <div class="cat_gif">
+      <img src="cat01.gif">
+    </div>
+    <div class="cat_gif">
+      <img src="cat02.gif">
+    </div>
+    <div class="cat_gif">
+      <img src="cat03.gif">
+    </div>
+    <div class="cat_gif">
+      <img src="cat04.gif">
+    </div>
+    <div class="cat_gif">
+      <img src="cat05.gif">
+    </div>
+
+    <p> ♡ ´• ᵕ •` ♡ </p>
+  </body>
+<!------------- body end ------------->
+</html>
